@@ -173,7 +173,7 @@
 						<img alt="" src="movie5.gif" />
 						<div class="carousel-caption">
 							<h4>
-								Doctor Strange
+								Zootopia
 							</h4>
 							<p>
 								It is, in short, a city that only the Mouse House could imagine, and one that lends itself surprisingly well to a classic L.A.-style detective story.
@@ -185,7 +185,7 @@
 						<img alt="" src="movie4.png" />
 						<div class="carousel-caption">
 							<h4>
-								Doctor Stange
+								Doctor Strange
 							</h4>
 							<p>
 							After his career is destroyed, a brilliant but arrogant surgeon gets a new lease on life when a sorcerer takes him under his wing and trains him to defend the world against evil.
@@ -197,10 +197,10 @@
 						<img alt="" src="movie1.jpg" />
 						<div class="carousel-caption">
 							<h4>
-								
+								LA LA LAND
 							</h4>
 							<p>
-								
+								To rhapsodize about La La Land is to complete the experience. You want to sing its praises, literally.
 							</p>
 						</div>
 					</div>
