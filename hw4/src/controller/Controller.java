@@ -1,8 +1,3 @@
-/**
- * @author Qianying Chen Date:2016/12/13 
- * andrewId:qianyinc
- * course number:08-672
- */
 package controller;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -29,11 +24,8 @@ public class Controller extends HttpServlet {
         Action.add(new LogoutAction(model));
         Action.add(new ManageAction(model));
         Action.add(new RegisterAction(model));
-        Action.add(new RemoveAction(model));
-        Action.add(new AddAction(model));
-        Action.add(new ListAction(model));
-        Action.add(new ClickAction(model));
-      
+        Action.add(new RecommendationAction(model));
+       
         
     }
 

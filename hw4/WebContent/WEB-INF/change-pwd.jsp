@@ -53,12 +53,12 @@
                     </a>
                 </li>
                 
-                <li>
+                 <li>
                     <a href="register.do">
                         <i class="pe-7s-users"></i>
                         <p> Create Account</p>
                     </a>
-                </li>
+                </li> 
                 
                 <li>
                       <a href="recommendation.do">
@@ -66,12 +66,12 @@
                         <p> Recommendation List</p>
                     </a>
                 </li>
-                <li>
+                 <li>
                     <a href="change-pwd.do">
                         <i class="pe-7s-door-lock"></i>
                         <p>Change Password</p>
                     </a>
-                </li>
+                </li> 
 				
             </ul>
     	</div>

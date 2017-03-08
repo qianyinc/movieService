@@ -1,8 +1,3 @@
-/**
- * @author Qianying Chen Date:2016/12/13 
- * andrewId:qianyinc
- * course number:08-672
- */
 package controller;
 import java.util.ArrayList;
 import java.util.List;
@@ -10,13 +5,13 @@ import javax.servlet.http.HttpServletRequest;
 import org.genericdao.RollbackException;
 import databeans.MovieBean;
 import databeans.UserBean;
-import model.FavoriteDAO;
+import model.MovieDAO;
 import model.Model;
 import model.UserDAO;
 
 public class ManageAction extends Action {
 
-    private FavoriteDAO favDAO;
+    private MovieDAO favDAO;
     private UserDAO  userDAO;
 
     public ManageAction(Model model) {

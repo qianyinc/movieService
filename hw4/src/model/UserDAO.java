@@ -1,8 +1,3 @@
-/**
- * @author Qianying Chen Date:2016/12/13 
- * andrewId:qianyinc
- * course number:08-672
- */
 package model;
 import java.util.Arrays;
 
@@ -30,8 +25,8 @@ public class UserDAO extends GenericDAO<UserBean> {
         return users;
     }
     
-    public UserBean read1(String email) throws RollbackException  {
-        UserBean[] list = match(MatchArg.equals("email", email));
+    public UserBean read1(String userName) throws RollbackException  {
+        UserBean[] list = match(MatchArg.equals("userName", userName));
         if(list == null || list.length==0){
             return null;
         }
@@ -42,13 +37,13 @@ public class UserDAO extends GenericDAO<UserBean> {
         
     
     
-    public UserBean setPassword(String email, String password) throws RollbackException {
+    public UserBean setPassword(String userName, String password) throws RollbackException {
         try {
             Transaction.begin();
-            UserBean dbUser = read1(email);
+            UserBean dbUser = read1(userName);
 
             if (dbUser == null) {
-                throw new RollbackException("Email " + email + " does not exist");
+                throw new RollbackException("UserName " + userName + " does not exist");
             }
 
             dbUser.encodePassword(password);

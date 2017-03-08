@@ -1,8 +1,3 @@
-/**
- * @author Qianying Chen Date:2016/12/13 
- * andrewId:qianyinc
- * course number:08-672
- */
 package controller;
 
 import java.util.ArrayList;
@@ -16,24 +11,24 @@ import org.mybeans.form.FormBeanFactory;
 import databeans.MovieBean;
 import databeans.UserBean;
 import formbeans.UserIdForm;
-import model.FavoriteDAO;
+import model.MovieDAO;
 import model.Model;
 import model.UserDAO;
 
-public class ListAction extends Action {
+public class RecommendationAction extends Action {
     private FormBeanFactory<UserIdForm> formBeanFactory = FormBeanFactory
             .getInstance(UserIdForm.class);
 
-    private FavoriteDAO favDAO;
+    private MovieDAO movieDAO;
     private UserDAO userDAO;
 
-    public ListAction(Model model) {
-        favDAO = model.getFavoriteDAO();
+    public RecommendationAction(Model model) {
+        movieDAO = model.getFavoriteDAO();
         userDAO = model.getUserDAO();
     }
 
     public String getName() {
-        return "list.do";
+        return "recommendation.do";
     }
 
     public String perform(HttpServletRequest request) {
@@ -54,9 +49,9 @@ public class ListAction extends Action {
                 errors.add("Invalid User Id: " + userId);
                 return "error.jsp";
             }
-            MovieBean[] favoriteList = favDAO.getUserFavorites(user);
+            MovieBean[] favoriteList = movieDAO.getUserFavorites(user);
             request.setAttribute("favoriteList", favoriteList);
-            return "list.jsp";
+            return "recommendation.jsp";
         } catch (RollbackException e) {
             errors.add(e.getMessage());
             return "error.jsp";

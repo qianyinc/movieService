@@ -66,7 +66,7 @@
                 </li>
                 
                 <li>
-                    <a href="recommendation.html">
+                    <a href="recommendation.do">
                         <i class="pe-7s-news-paper"></i>
                         <p> Recommendation List</p>
                     </a>

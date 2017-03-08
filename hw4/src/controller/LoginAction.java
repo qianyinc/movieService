@@ -1,8 +1,3 @@
-/**
- * @author Qianying Chen Date:2016/12/13 
- * andrewId:qianyinc
- * course number:08-672
- */
 package controller;
 
 import java.util.ArrayList;
@@ -55,7 +50,7 @@ public class LoginAction extends Action {
             // Look up the user
       
             UserBean user  = new UserBean();
-            user = userDAO.read1(form.getEmail());
+            user = userDAO.read1(form.getUserName());
             
             
             if (user == null) {
@@ -72,7 +67,7 @@ public class LoginAction extends Action {
             // Attach (this copy of) the user bean to the session
             HttpSession session = request.getSession();
             session.setAttribute("user",user);
-            return "manage.do";
+            return "recommendation.do";
         } catch (RollbackException e) {
             errors.add(e.getMessage());
             return "error.jsp";
