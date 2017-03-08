@@ -46,7 +46,7 @@
     	<div class="sidebar-wrapper">
             <div class="logo">
                 <a href="login.do" class="simple-text">
-                    Carnegie Movie Services
+                    TasteTubs
                 </a>
             </div>
 
@@ -77,7 +77,15 @@
             <div class="container-fluid">
                 <div class="navbar-header">
                     
-                    <a class="navbar-brand" href="#">Carnegie Movie Services</a>
+                    
+                    <form class="navbar-form navbar-left" role="search">
+						<div class="form-group">
+							<input type="text" placeholder="Search movies, TV shows..." class="form-control" />
+						</div> <button type="submit" class="btn btn-default">Go!</button>
+					</form>
+                    
+                    
+      
                 </div>
                 
             </div>
@@ -124,11 +132,7 @@
 							</ul>
 						</li>
 					</ul>
-					<form class="navbar-form navbar-left" role="search">
-						<div class="form-group">
-							<input type="text" class="form-control" />
-						</div> <button type="submit" class="btn btn-default">Submit</button>
-					</form>
+					
 					<ul class="nav navbar-nav navbar-right">
 						<li>
 							 <a href="#">Link</a>
@@ -166,35 +170,37 @@
 				</ol>
 				<div class="carousel-inner">
 					<div class="item">
-						<img alt="" src="movie3.jpg" />
+						<img alt="" src="movie5.gif" />
 						<div class="carousel-caption">
 							<h4>
-								First Thumbnail label
+								Doctor Strange
 							</h4>
 							<p>
-								Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+								It is, in short, a city that only the Mouse House could imagine, and one that lends itself surprisingly well to a classic L.A.-style detective story.
+								
 							</p>
 						</div>
 					</div>
 					<div class="item active">
-						<img alt="" src="movie1.jpg" />
+						<img alt="" src="movie4.png" />
 						<div class="carousel-caption">
 							<h4>
-								Second Thumbnail label
+								Doctor Stange
 							</h4>
 							<p>
-								Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+							After his career is destroyed, a brilliant but arrogant surgeon gets a new lease on life when a sorcerer takes him under his wing and trains him to defend the world against evil.
+								
 							</p>
 						</div>
 					</div>
 					<div class="item">
-						<img alt="" src="movie2.jpg" />
+						<img alt="" src="movie1.jpg" />
 						<div class="carousel-caption">
 							<h4>
-								Third Thumbnail label
+								
 							</h4>
 							<p>
-								Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+								
 							</p>
 						</div>
 					</div>
@@ -310,7 +316,7 @@
 
         	$.notify({
             	icon: 'pe-7s-gift',
-            	message: "Welcome to <b>Carnegie Movie Services</b>."
+            	message: "Welcome to <b>TasteTubs</b>."
 
             },{
                 type: 'info',

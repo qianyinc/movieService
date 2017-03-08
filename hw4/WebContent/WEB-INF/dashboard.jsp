@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
-	<link rel="icon" type="image/png" href="assets/img/favicon.ico">
+	<link rel="icon" type="image/" href="assets/img/favicon.ico">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
 	<title>Movie</title>
@@ -179,10 +179,10 @@
 				</ol>
 				<div class="carousel-inner">
 					<div class="item">
-						<img alt="" src="movie3.jpg" />
+						<img alt="" src="imgtest.png" />
 						<div class="carousel-caption">
 							<h4>
-								First Thumbnail label
+								
 							</h4>
 							<p>
 								Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
@@ -190,7 +190,7 @@
 						</div>
 					</div>
 					<div class="item active">
-						<img alt="" src="movie1.jpg" />
+						<img alt="" src="imgtest.png" />
 						<div class="carousel-caption">
 							<h4>
 								Second Thumbnail label
@@ -201,7 +201,7 @@
 						</div>
 					</div>
 					<div class="item">
-						<img alt="" src="movie2.jpg" />
+						<img alt="" src="imgtest.png" />
 						<div class="carousel-caption">
 							<h4>
 								Third Thumbnail label
