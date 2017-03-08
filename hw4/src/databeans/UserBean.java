@@ -18,7 +18,6 @@ public class UserBean {
     private String lastName;
     private String userName;
     private String password;
-    private String address;
     private String hashedPassword = "*";
     private int salt = 0;
 
@@ -58,14 +57,6 @@ public class UserBean {
 
     public void setUserName(String userName) {
         this.userName = userName;
-    }
-
-    public String getAddress() {
-        return address;
-    }
-
-    public void setAddress(String address) {
-        this.address = address;
     }
 
     public String getFirstName() {

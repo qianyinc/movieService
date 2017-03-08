@@ -5,7 +5,7 @@
 	<link rel="icon" type="image/png" href="assets/img/favicon.ico">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-	<title>Create Customer Account</title>
+	<title>User Login</title>
 
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <meta name="viewport" content="width=device-width" />
@@ -38,7 +38,7 @@
     <!--   you can change the color of the sidebar using: data-color="blue | azure | green | orange | red | purple" -->
 
 
-    	<div class="sidebar-wrapper">
+<div class="sidebar-wrapper">
             <div class="logo">
                 <a href="login.do" class="simple-text">
                     Carnegie Movie Services
@@ -47,31 +47,31 @@
 
             <ul class="nav">
                 <li>
-                    <a href="checkLogin.do">
+                    <a href="login.do">
                         <i class="pe-7s-graph"></i>
-                        <p>Login</p>
+                        <p>Dashboard</p>
                     </a>
                 </li>
                 
-                <li>
+                 <li>
                     <a href="register.do">
                         <i class="pe-7s-users"></i>
                         <p> Create Account</p>
                     </a>
-                </li>
-                
-                <!-- <li>
-                    <a href="recommendation.do">
+                </li> 
+             <!--    
+                <li>
+                      <a href="recommendation.do">
                         <i class="pe-7s-news-paper"></i>
                         <p> Recommendation List</p>
                     </a>
                 </li>
-                <li>
+                 <li>
                     <a href="change-pwd.do">
                         <i class="pe-7s-door-lock"></i>
                         <p>Change Password</p>
                     </a>
-                </li> -->
+                </li>  -->
 				
             </ul>
     	</div>
@@ -100,7 +100,7 @@
                         </li>
                        
                         <li>
-                            <a href="login.do">
+                              <a href="login.do">
                                 <p>Log out</p>
                             </a>
                         </li>
@@ -117,41 +117,29 @@
                     <div class="col-md-11">
                         <div class="card">
                             <div class="header">
-                              <h4 class="title">Create User Account</h4>
+                                <h4 class="title">User Login</h4>
                             </div>
                             <div class="content">
-                                <form action = "register.do" method="POST">
+                               <form action="checkLogin.do" method="POST">
                                     <div class="row">
-                                        <div class="col-md-5">
+                                        <div class="col-md-8">
                                             <div class="form-group">
-                                                <label>First Name</label>
-                                                <input type="text" class="form-control" placeholder="First Name" value="">
+                                                <label>UserName</label>
+                                                <input type="userName" class="form-control" placeholder="" value="">
                                             </div>
                                         </div>
-                                        <div class="col-md-5">
-                                            <div class="form-group">
-                                                <label>Last Name</label>
-                                                <input type="text" class="form-control" placeholder="Last Name" value="">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                       <div class="col-md-5">
-                                            <div class="form-group">
-                                                <label for="exampleInputEmail1">User NAME</label>
-                                                <input type="text" class="form-control" placeholder="User Name">
-                                            </div>
-                                        </div>
+									</div>
                                        
-                                        <div class="col-md-6">
+                                        <div class="row">
+                                        <div class="col-md-8">
                                             <div class="form-group">
                                                 <label>Password</label>
-                                                <input type="password" class="form-control" placeholder="Password" value="">
+                                                <input type="password" class="form-control" placeholder="" value="">
                                             </div>
                                         </div>
-                                    </div>
-                                    </div>
-                                    <button type="submit" class="btn btn-info btn-fill pull-right">CREATE</button>
+									</div>
+                                
+                                    <button type="submit" class="btn btn-info btn-fill pull-right">Login</button>
                                     <div class="clearfix"></div>
                                 </form>
                             </div>
@@ -189,7 +177,7 @@
                     </ul>
                 </nav>
                 <p class="copyright pull-right">
-                    &copy; <script>document.write(new Date().getFullYear())</script> <a href=""></a>Made with love for a better web
+                    &copy; <script>document.write(new Date().getFullYear())</script> Made with love for a better web
                 </p>
             </div>
         </footer>

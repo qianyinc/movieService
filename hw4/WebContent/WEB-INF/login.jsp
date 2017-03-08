@@ -52,9 +52,9 @@
 
             <ul class="nav">
                 <li>
-                    <a href="login.do">
+                    <a href="checkLogin.do">
                         <i class="pe-7s-graph"></i>
-                        <p>Dashboard</p>
+                        <p>Login</p>
                     </a>
                 </li>
                 
@@ -62,19 +62,6 @@
                     <a href="register.do">
                         <i class="pe-7s-users"></i>
                         <p> Create Account</p>
-                    </a>
-                </li>
-                
-                <li>
-                    <a href="recommendation.do">
-                        <i class="pe-7s-news-paper"></i>
-                        <p> Recommendation List</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="change-pwd.do">
-                        <i class="pe-7s-door-lock"></i>
-                        <p>Change Password</p>
                     </a>
                 </li>
 				
